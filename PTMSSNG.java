@@ -22,7 +22,7 @@ public class PTMSSNG {
                 //Check for every X-coordinate of each given point.
                 if(X.contains(a)){
                     X.remove(a);
-                }
+                }                
                 else{
                     X.add(a);
                 }
