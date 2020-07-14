@@ -1,11 +1,8 @@
 //package com.company;
 
 //easy problem 
-
-import java.nio.charset.CharacterCodingException;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
 class CHF {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -22,5 +19,6 @@ class CHF {
             }
             System.out.println(minimum);
         }
+        scan.close();
     }
 }

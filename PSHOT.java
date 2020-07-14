@@ -1,7 +1,7 @@
-import java.nio.charset.CharacterCodingException;
+
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
+
 class PSHOT{
 
     public static void main(String[] args) {
@@ -39,5 +39,6 @@ class PSHOT{
               }
             }
         }
+        scan.close();
     }
 }

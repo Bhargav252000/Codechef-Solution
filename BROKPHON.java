@@ -1,12 +1,8 @@
-package com.company;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.InputMismatchException;
-import java.util.OptionalInt;
-import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class BROKPHON {
     public static void main(String[] args) {

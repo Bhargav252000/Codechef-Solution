@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 class WALKFAST{
 
@@ -35,5 +34,6 @@ class WALKFAST{
             }
             System.out.println(res);
         }
+        scan.close();
     }
 }

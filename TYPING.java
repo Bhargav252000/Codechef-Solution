@@ -49,5 +49,6 @@ class TYPING
             }
             System.out.println(sum);
         }
+        scan.close();
     }
 }

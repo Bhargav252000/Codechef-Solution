@@ -1,7 +1,6 @@
 import java.lang.Math;
 import java.lang.String;
 import java.lang.System;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 //EASY PROBLEM
@@ -30,7 +29,7 @@ class PERMEXIS
             else{
                 System.out.println("NO");
             }
-
+            scan.close();
 
         }
     }

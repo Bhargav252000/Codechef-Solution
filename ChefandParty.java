@@ -1,12 +1,9 @@
 //package com.company;
 
-import java.lang.Math;
 import java.lang.String;
 import java.lang.System;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-class CHFPARTY
+import java.util.*;
+class ChefandParty
 {
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
@@ -26,6 +23,6 @@ class CHFPARTY
             }
             System.out.println(count);
         }
-
+        scan.close();
     }
 }

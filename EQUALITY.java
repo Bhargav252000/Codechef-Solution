@@ -1,11 +1,7 @@
 //package com.company;
-
-import java.lang.Math;
 import java.lang.String;
 import java.lang.System;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 //Easy Problem
 class EQUALITY
 {
@@ -28,5 +24,6 @@ class EQUALITY
             }
             System.out.println();
         }
+        scan.close();
     }
 }

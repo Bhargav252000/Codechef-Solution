@@ -4,8 +4,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.*;
-import java.util.stream.IntStream;
-public class Main {
+
+
+public class Mixigame {
     public static void main(String[] args) {
         InputReader scan = new InputReader(System.in);
         PrintWriter write = new PrintWriter(System.out);
