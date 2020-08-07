@@ -19,9 +19,8 @@ public class ROOTSQR {
                 long squareRoot = (int)Math.sqrt(n);
                 squareRoot = squareRoot * squareRoot;
                 long diff = n - squareRoot;
-                long per =   (X * n)/100;
+                long per = (X * n)/100;
                 System.out.println(diff<=per ? "yes" : "no");
-                
             }
             scan.close();
         }
