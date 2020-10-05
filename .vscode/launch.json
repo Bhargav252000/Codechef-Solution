@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Football",
+            "request": "launch",
+            "mainClass": "Football",
+            "projectName": "codechefCon_e72f02d5"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ArraySum",
             "request": "launch",
             "mainClass": "Hackerrank.ArraySum",

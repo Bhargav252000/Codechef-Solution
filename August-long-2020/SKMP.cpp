@@ -13,6 +13,21 @@
 using namespace std;
 //alt + ctrl + N
 
+int power(int a, int n) {
+    int res = 1;
+    while(n){
+        if(n%2){
+          res *= a;
+          n--;
+        }else{
+           a *= a;
+           n /= 2;
+        }
+    }
+    return res;
+}
+
+
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
@@ -21,20 +36,8 @@ int main(){
     ll test;
     cin >> test;
     while(test--){
-        ll chef, darth;
-        cin >> darth >> chef;
-        while(chef != 0 && darth>chef){
-            darth = darth - chef;
-            chef = chef/2;
-        }
-
-        if(chef == 0){
-            cout << "0" << endl;
-        }
-        if(darth <= chef){
-            cout << "1" << endl;
-        }
+        
     }
-    
+
 return 0;
 }

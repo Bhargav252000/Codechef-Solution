@@ -13,21 +13,6 @@
 using namespace std;
 //alt + ctrl + N
 
-int power(int a, int n) {
-    int res = 1;
-    while(n){
-        if(n%2){
-          res *= a;
-          n--;
-        }else{
-           a *= a;
-           n /= 2;
-        }
-    }
-    return res;
-}
-
-
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
